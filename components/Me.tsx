@@ -1,5 +1,5 @@
 import React from "react";
-import Skilllists from "./Skilllists";
+import Skills from "./Skills";
 
 const Me = () => {
   return (
@@ -20,14 +20,14 @@ const Me = () => {
           My Skills
         </h2>
         <div className="mew800 grid grid-cols-1 md:grid-cols-2 gap-8">
-          <Skilllists title="Web developer" />
-          <Skilllists title="React developer" />
-          <Skilllists title="Asp.Net Core developer" />
-          <Skilllists title="NodeJS developer" />
-          <Skilllists title="Designer" />
-          <Skilllists title="SASS,SCSS" />
-          <Skilllists title="Responsive" />
-          <Skilllists title="Web developer" />
+          <Skills title="Web developer" />
+          <Skills title="React developer" />
+          <Skills title="Asp.Net Core developer" />
+          <Skills title="NodeJS developer" />
+          <Skills title="Designer" />
+          <Skills title="SASS,SCSS" />
+          <Skills title="Responsive" />
+          <Skills title="Web developer" />
         </div>
       </div>
     </section>

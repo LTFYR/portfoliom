@@ -5,7 +5,7 @@ type Skills = {
   title: string;
 };
 
-const Skilllists = ({ title }: Skills) => {
+const Skills = ({ title }: Skills) => {
   return (
     <h4 className="text-2xl font-semibold flex items-center gap-4">
       <span className="text-yellow-500">
@@ -16,4 +16,4 @@ const Skilllists = ({ title }: Skills) => {
   );
 };
 
-export default Skilllists;
+export default Skills;
