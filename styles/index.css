@@ -1,12 +1,11 @@
-@media (min-width: 1024px) {
-  .banners {
-    width: 40%;
-  }
-}
-
 @media (min-width: 768px) {
   .banners {
     width: 60%;
+  }
+}
+@media (min-width: 1024px) {
+  .banners {
+    width: 40%;
   }
 }
 

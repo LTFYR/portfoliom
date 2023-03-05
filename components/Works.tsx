@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { appointment, ecommerce, instagram, travel } from "../public/images";
-const Myworks = () => {
+const Works = () => {
   return (
     <section id="works" className="w-full h-full bg-black text-white py-28">
       <h1 className="text-3xl uppercase myworklsp text-center font-semibold">
@@ -78,4 +78,4 @@ const Myworks = () => {
   );
 };
 
-export default Myworks;
+export default Works;

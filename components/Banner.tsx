@@ -71,7 +71,10 @@ const Banner = () => {
           </div>
         </nav>
         <div className="w-full h-full flex flex-col justify-center items-center px-4 select-none">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl text-center sm:text-start font-black">
+          <h1
+            style={{ paddingBottom: "20px" }}
+            className="text-5xl md:text-7xl lg:text-8xl text-center sm:text-start font-black"
+          >
             I'm Lutfiyar Aliyev
           </h1>
           <div className="flex items-center gap-2 md:gap-6 text-base md:text-xl font-bold uppercase bg-yellow-500 px-6 py-3">
