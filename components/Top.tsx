@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { TbChevronRight } from "react-icons/tb";
 
-const Gototop = () => {
+const Top = () => {
   useEffect(() => {
     const goToTop = document.querySelector(".scrollBTN") as HTMLElement;
     window.onscroll = () => {
@@ -35,4 +35,4 @@ const Gototop = () => {
   );
 };
 
-export default Gototop;
+export default Top;

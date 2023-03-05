@@ -7,7 +7,7 @@ import Works from "../components/Works";
 import Offers from "../components/Offers";
 import Testimonial from "../components/Testimonial";
 import Contact from "../components/Contact";
-import Gototop from "../components/Gototop";
+import Top from "../components/Top";
 
 const Home: NextPage = () => {
   return (
@@ -24,7 +24,7 @@ const Home: NextPage = () => {
         <Testimonial />
         <Contact />
       </div>
-      <Gototop />
+      <Top />
     </div>
   );
 };
