@@ -8,7 +8,7 @@ const Offers = () => {
   return (
     <section id="offers" className="bg-black text-white py-28">
       <div>
-        <h1 className="text-3xl uppercase tracking-[6px] font-semibold text-center text-white">
+        <h1 className="text-3xl uppercase offerslsp6 font-semibold text-center text-white">
           MY OFFER
         </h1>
         <div className="w-full px-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mt-20">
@@ -39,5 +39,3 @@ const Offers = () => {
 };
 
 export default Offers;
-
-// flex flex-col justify-between flex-wrap

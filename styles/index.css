@@ -1,0 +1,78 @@
+@media (min-width: 1024px) {
+  .banners {
+    width: 40%;
+  }
+}
+
+@media (min-width: 768px) {
+  .banners {
+    width: 60%;
+  }
+}
+
+.bannerw80 {
+  width: 80%;
+}
+
+.bannerw20 {
+  width: 20%;
+}
+
+.cardlh40 {
+  line-height: 40px;
+}
+
+.cardlsp10 {
+  letter-spacing: 10px;
+}
+
+.contactmaxw600 {
+  max-width: 600px;
+}
+
+.offerslsp6 {
+  letter-spacing: 6px;
+}
+
+.testw500 {
+  width: 500px;
+}
+
+@media (min-width: 768px) {
+  .testw500 {
+    width: 620px;
+  }
+}
+.myworklsp {
+  letter-spacing: 10px;
+}
+.myworksh1000 {
+  height: 1000px;
+}
+
+@media (min-width: 768px) {
+  .myworksh1000 {
+    height: 500px;
+  }
+}
+
+.gtpbw {
+  border-width: 1px;
+}
+
+@media (min-width: 1024px) {
+  .mew800 {
+    width: 800px;
+  }
+}
+
+.myworkh500 {
+  height: 500px;
+}
+
+.bannerbl {
+  border-left: 1px;
+}
+.gtptop85 {
+  top: 85vh;
+}

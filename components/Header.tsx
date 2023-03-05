@@ -2,19 +2,19 @@ import React from "react";
 import { useCallback } from "react";
 import type { Container, Engine } from "tsparticles-engine";
 import Particles from "react-particles";
-import { loadFull } from "tsparticles";
+// import { loadFull } from "tsparticles";
 
 const Header = () => {
-  const particlesInit = useCallback(async (engine: Engine) => {
-    await loadFull(engine);
-  }, []);
+  // const particlesInit = useCallback(async (engine: Engine) => {
+  //   await loadFull(engine);
+  // }, []);
 
-  const particlesLoaded = useCallback(
-    async (container: Container | undefined) => {
-      await console.log(container);
-    },
-    []
-  );
+  // const particlesLoaded = useCallback(
+  //   async (container: Container | undefined) => {
+  //     await console.log(container);
+  //   },
+  //   []
+  // );
   return (
     <div className="w-full h-full bg-main-image bg-cover">
       {/* <Particles

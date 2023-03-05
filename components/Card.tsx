@@ -10,10 +10,10 @@ const Card: FunctionComponent<Props> = ({ Icon, subtitle, title }) => {
   return (
     <div className="w-full shadow-shadow flex flex-col items-center justify-center gap-10 py-16">
       {Icon && <Icon className="text-yellow-500 text-7xl" />}
-      <h1 className="text-2xl font-semibold uppercase text-gray-100 tacking-[10px]">
+      <h1 className="text-2xl font-semibold uppercase text-gray-100 cardlsp10">
         {title}
       </h1>
-      <p className="text-2xl text-gray-100 px-10  text-center leading-[40px]">
+      <p className="text-2xl text-gray-100 px-10  text-center cardlh40">
         {subtitle}
       </p>
     </div>

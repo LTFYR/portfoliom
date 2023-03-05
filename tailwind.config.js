@@ -16,7 +16,7 @@ module.exports = {
         textColor: "#aeaeae",
       },
       boxShadow: {
-        shadow: "#bbb 0px 5px 15px;",
+        shadow: "#bbb 0px 5px 15px",
       },
     },
   },

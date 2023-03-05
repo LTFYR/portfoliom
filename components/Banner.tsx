@@ -29,9 +29,16 @@ const Banner = () => {
     };
   });
   return (
-    <section id="banner" className="w-full h-[800px] text-white relative">
+    <section
+      id="banner"
+      style={{ height: "800px" }}
+      className="w-full text-white relative"
+    >
       <Header />
-      <div className="absolute left-0 top-0 w-full h-[800px] bg-black bg-opacity-10">
+      <div
+        style={{ height: "800px" }}
+        className="absolute left-0 top-0 w-full bg-black bg-opacity-10"
+      >
         <nav
           style={{
             backgroundColor: menuBackground,
@@ -49,13 +56,22 @@ const Banner = () => {
             onClick={() => setNavMenu(true)}
             className="w-8 h-6 group flex flex-col items-center justify-between cursor-pointer"
           >
-            <span className="w-full h-[3px] bg-yellow-500 inline-flex group-hover:w-4 duration-300"></span>
-            <span className="w-full h-[3px] bg-yellow-500 inline-flex"></span>
-            <span className="w-full h-[3px] bg-yellow-500 inline-flex group-hover:w-4 duration-300"></span>
+            <span
+              style={{ height: "3px" }}
+              className="w-full bg-yellow-500 inline-flex group-hover:w-4 duration-300"
+            ></span>
+            <span
+              style={{ height: "3px" }}
+              className="w-full bg-yellow-500 inline-flex"
+            ></span>
+            <span
+              style={{ height: "3px" }}
+              className="w-full bg-yellow-500 inline-flex group-hover:w-4 duration-300"
+            ></span>
           </div>
         </nav>
         <div className="w-full h-full flex flex-col justify-center items-center px-4 select-none">
-          <h1 className="text-[50px] md:text-[80px] lg:text-[100px] text-center sm:text-start font-black">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl text-center sm:text-start font-black">
             I'm Lutfiyar Aliyev
           </h1>
           <div className="flex items-center gap-2 md:gap-6 text-base md:text-xl font-bold uppercase bg-yellow-500 px-6 py-3">
@@ -73,8 +89,8 @@ const Banner = () => {
           onClick={handleMenu}
           className="w-full h-screen bg-black bg-opacity-50 fixed right-0 top-0 flex justify-end z-50"
         >
-          <div className="w-full md:w-[60%] lg:w-[40%] h-full bg-zinc-900 text-white flex items-center justify-center">
-            <div className="w-4/5 px-12">
+          <div className="w-full banners h-full bg-zinc-900 text-white flex items-center justify-center">
+            <div className="bannerw80 px-12">
               <div>
                 <ul className="flex flex-col gap-3">
                   <Link
@@ -161,7 +177,7 @@ const Banner = () => {
                 </p>
               </div>
             </div>
-            <div className="w-1/5 h-full border-l-[1px] text-center flex items-center justify-center">
+            <div className="bannerw20 h-full bannerbl text-center flex items-center justify-center">
               <button
                 className="text-3xl font-black text-yellow-500"
                 onClick={() => setNavMenu(false)}

@@ -25,8 +25,9 @@ const Contact = () => {
 
   return (
     <section
+      style={{ height: "800px" }}
       id="contact"
-      className="w-full h-[800px] bg-cover-image bg-no-repeat bg-cover bg-fixed text-white px-4 relative"
+      className="w-full bg-cover-image bg-no-repeat bg-cover bg-fixed text-white px-4 relative"
     >
       <div className="w-full h-full bg-black bg-opacity-80 py-20">
         <div className="max-w-6xl h-full mx-auto flex flex-col gap-6 md:gap-12">
@@ -52,7 +53,7 @@ const Contact = () => {
               initial={{ y: 50, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.6, type: "easyIn" }}
-              className="max-w-[600px] h-full flex justify-center items-center mx-auto font-semibold px-4"
+              className="contactmaxw600 h-full flex justify-center items-center mx-auto font-semibold px-4"
             >
               {successMsg}
             </motion.p>

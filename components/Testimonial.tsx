@@ -52,7 +52,7 @@ const Testimonial = () => {
       id="testimonials"
       className="text-white py-40 flex justify-center items-center bg-black overflow-hidden"
     >
-      <div className="w-[500px] md:w-[620px] h-60 px-4">
+      <div className="testw500 h-60 px-4">
         <div>
           <Slider {...settings}>
             <div>

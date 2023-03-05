@@ -3,11 +3,11 @@ import "slick-carousel/slick/slick.css";
 import Head from "next/head";
 import Banner from "../components/Banner";
 import Me from "../components/Me";
-import MyWorks from "../components/MyWorks";
+import Myworks from "../components/Myworks";
 import Offers from "../components/Offers";
 import Testimonial from "../components/Testimonial";
 import Contact from "../components/Contact";
-import GoToTop from "../components/GoToTop";
+import Gototop from "../components/Gototop";
 
 const Home: NextPage = () => {
   return (
@@ -20,11 +20,11 @@ const Home: NextPage = () => {
         <Banner />
         <Me />
         <Offers />
-        <MyWorks />
+        <Myworks />
         <Testimonial />
         <Contact />
       </div>
-      <GoToTop />
+      <Gototop />
     </div>
   );
 };

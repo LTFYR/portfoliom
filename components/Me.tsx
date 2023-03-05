@@ -1,5 +1,5 @@
 import React from "react";
-import SkillLists from "./SkillLists";
+import Skilllists from "./Skilllists";
 
 const Me = () => {
   return (
@@ -19,15 +19,15 @@ const Me = () => {
         <h2 className="text-xl md:text-3xl font-medium md:leading-relaxed text-center">
           My Skills
         </h2>
-        <div className="lg:w-[800px] grid grid-cols-1 md:grid-cols-2 gap-8">
-          <SkillLists title="Web developer" />
-          <SkillLists title="React developer" />
-          <SkillLists title="Asp.Net Core developer" />
-          <SkillLists title="NodeJS developer" />
-          <SkillLists title="Designer" />
-          <SkillLists title="SASS,SCSS" />
-          <SkillLists title="Responsive" />
-          <SkillLists title="Web developer" />
+        <div className="mew800 grid grid-cols-1 md:grid-cols-2 gap-8">
+          <Skilllists title="Web developer" />
+          <Skilllists title="React developer" />
+          <Skilllists title="Asp.Net Core developer" />
+          <Skilllists title="NodeJS developer" />
+          <Skilllists title="Designer" />
+          <Skilllists title="SASS,SCSS" />
+          <Skilllists title="Responsive" />
+          <Skilllists title="Web developer" />
         </div>
       </div>
     </section>
